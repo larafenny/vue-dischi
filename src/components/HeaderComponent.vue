@@ -21,9 +21,8 @@ export default {
             padding: 10px;
             height: 100%;
             img{
-            max-height: 100%;
-        }
-        }
-        
+                max-height: 100%;
+            }
+        }  
     }
 </style>
