@@ -2,18 +2,21 @@
   <div id="app">
     <Header/>
     <Main/>
+    <DiskList/>
   </div>
 </template>
 
 <script>
 import Header from './components/HeaderComponent.vue'
 import Main from './components/MainComponent.vue'
+import DiskList from './components/DiskList.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Main
+    Main,
+    DiskList
   }
 }
 </script>
