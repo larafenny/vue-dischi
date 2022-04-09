@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Header from './components/HeaderComponent.vue'
-import Main from './components/MainComponent.vue'
-import DiskList from './components/DiskList.vue'
+import Header from './components/HeaderComponent.vue';
+import Main from './components/MainComponent.vue';
+import DiskList from './components/DiskList.vue';
 
 export default {
     name: 'App',
@@ -17,7 +17,7 @@ export default {
       Header,
       Main,
       DiskList
-    },
+     },
     data(){
       return{
           apiUrl: 'https://flynn.boolean.careers/exercises/api/array/music'
