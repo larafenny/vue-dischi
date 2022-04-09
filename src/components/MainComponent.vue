@@ -1,14 +1,21 @@
 <template>
   <main>
     <div class="songs-container">
+      <DiskList/>
 
     </div>
   </main>
 </template>
 
 <script>
+
+import DiskList from '@/components/DiskList.vue';
+
 export default {
     name: 'MainComponent',
+    components: {
+      DiskList
+    }
 }
 </script>
 
